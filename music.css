@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+   }
+p{
+    text-transform: lowercase;
+    color:var(--gray);
+}
+:root{
+    --blu:#56ccf2;
+    --gray:#777;
+    --bg:linear-gradient(130deg , #00000071 ,#00000071);
+    --fo:font-family:"Raleway", sans-serif;
+    --ft:font-family:"Henny Penny", system-ui;
+    --fe:font-family: "Metal Mania", system-ui;
+}
+header{
+    background-color:rgba(0,0,0,0.6);
+    background-image:url('OIP.jpeg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+}
+ header nav{
+     border-bottom:1px solid var(--gray);
+     display: flex;
+     justify-content: center;
+ }
+ header nav ul{
+     display: flex;
+     justify-content: space-around;
+     width:50%;
+ }
+ header nav ul li{
+     list-style: none;
+     padding:15px;
+     padding-bottom:8px;
+ }
+ header nav ul li a{
+     text-decoration: none;
+     color:var(--gray);
+     font-weight:500;
+ }
+ header nav ul li a:hover{
+     color: #fff;
+ }
+ header h1 ,h2 , footer h1 {
+     text-align: center;
+     color: #fff;
+     font-family: "Metal Mania", system-ui;
+     font-weight:300;
+     letter-spacing:2px;
+     text-transform: capitalize;
+     font-size: 4em;
+     padding:20px;
+ }
+ h2{
+     color: #000;
+     font-size: 3em;
+     padding-bottom:1px;
+ }
+ section ,
+ aside {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ section div ,
+ aside div {
+     width:10em;
+     display: flex;
+     margin:10px;
+     flex-direction:column;
+     align-items: center;
+     border:1px solid #ffff;
+
+ }
+ section div:hover ,
+ aside div:hover {
+     background-color: #e7e5e579;
+     border:1px solid #7c7b7b93;
+ }
+ section .one{
+     background:url('img-music/download.jpeg') center no-repeat;
+     height:9em;
+     width:9em;
+ }
+ section .two{
+     background:url('img-music/pexels-photo-409479.webp') center no-repeat;
+     height:9em;
+     width:9em;
+ }
+ section .three{
+     background:url('img-music/pexels-photo-220067.webp') center no-repeat;
+     height:9em;
+     width:9em;
+ }
+ section .four{
+     background:url('img-music/pexels-photo-28588318.webp') no-repeat;
+     height:9em;
+     width:9em;
+ }
+ section div h3 ,
+ aside div h3 {
+     text-transform: capitalize;
+ }
+ section div div ,
+ aside div div {
+     flex-direction: row;
+ }
+ section div div p ,
+ aside div div p {
+     color: #000;
+     font-size:15px;
+     padding:5px;
+     padding-right:0;
+ }
+ section div div button ,
+ aside div div button {
+     background-color:var(--blu);
+     color: #fff;
+     border:none;
+     border-radius:6px;
+     padding:5px;
+     font-size:14px;
+     width:8em;
+}
+section div div button:hover ,
+aside div div button:hover {
+     background-color:#56cbf29c;
+     cursor: pointer;
+}
+
+ /*    aside     */
+
+aside .five{
+    background:url('img-music/t-shirt.png')bottom no-repeat;
+    height:9em;
+    width:9em;
+}
+aside .six{
+    background:url('img-music/pexels-photo-2648988.jpeg') center no-repeat;
+    height:9em;
+    width:9em;
+}
+
+ /*      footer      */
+
+ footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--blu);
+    color: #fff;
+}
+footer h1{
+    padding:10px;
+    font-size:2em;
+    font-weight:200;
+    text-transform: capitalize;
+}
+footer div{
+    padding:10px 20px;
+    font-size:1.8em;
+}
